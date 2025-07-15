@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#icon{
+    width:40px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.Header{
+    height: 60px;
+    display: flex;
+    background-color:white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+#heading{
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-left: 800px;
+
+    color: black;
+}
+#booksadd{
+    margin-left: 700px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 40px;
+    margin-top: 10px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.288);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    border: white;
+    
+}
+#booksadd:hover{
+    background-color: rgba(128, 128, 128, 0.494);
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+.hidden{
+    display: none;
+}
+
+.content-container {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.111); 
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#bookaddcard{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+
+}
+input{
+    border-color: rgba(128, 128, 128, 0.111);
+    border-radius: 200px;
+    padding: 10px;
+}
+
+#Submitbut{
+    border: 2px solid rgba(137, 141, 151, 0.222);
+    border-radius: 20px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#Submitbut:hover{
+    background-color: rgba(128, 128, 128, 0.494);
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+
+}
